@@ -1,1 +1,13 @@
-useRef is used to access the dom elements jsut like document.getEleementById
+useRef is used to access the dom elements jsut like document.getEleementById.
+
+* UseLayoutEffect is almost the same with useEffect.
+   - UseLayoutEffect renders before useEffect
+   - useEffect is called after everything is rendered on page while useLayerEffect is printed before the page renders.
+
+* forwardRef allows you to transform a component to accept a ref. we do this by wrapping the whole component with forwardRef()
+* The problem that useCallback hook solves is similar to the problem that useMemo hook solves.
+* we store functions and not just data in useCallback()
+* useMemo and useCallback is used to prevent things from re-rendering everytime there's a change in state
+
+
+Tutorial Source - https://www.youtube.com/watch?v=LlvBzyy-558

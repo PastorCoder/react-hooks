@@ -1,0 +1,24 @@
+.text-container {
+  margin: 2rem;
+}
+
+/* Hide the overflow and add ellipsis */
+p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* Style the tooltip */
+p:hover::before {
+  content: attr(title);
+  position: absolute;
+  top: -1.5em;
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
+  /* padding: 0.5em; */
+  /* background-color: #333; */
+  /* color: #fff; */
+  /* border-radius: 0.25em; */
+  /* z-index: 1; */
+}
