@@ -1,0 +1,1 @@
+useRef is used to access the dom elements jsut like document.getEleementById
